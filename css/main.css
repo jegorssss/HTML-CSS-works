@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Giovi;
+    src: url(../fonts/Groboldov.otf);
+}
+body{
+    background-color: bisque;
+    font-family: Giovi;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px)/ 16 * 9);
+    margin: 10px;
+    background-color: coral;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+}
+.photo:hover{
+    transform:rotate(5deg) scale(1.57);
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+}
+
+.photo1{
+    background-image: url(../img/img1.jpeg);
+}.photo2{
+    background-image: url(../img/img2.jpeg);
+}.photo3{
+    background-image: url(../img/img3.jpeg);
+}.photo4{
+    background-image: url(../img/Dolina\ fu.png);
+}.photo5{
+    background-image: url(../img/img5.jpeg);
+}.photo6{
+    background-image: url(../img/img6.jpeg);
+}.photo7{
+    background-image: url(../img/img7.jpeg);
+}.photo8{
+    background-image: url(../img/img8.jpeg);
+}.photo9{
+    background-image: url(../img/img9.jpeg);
+}.photo10{
+    background-image: url(../img/img10.jpeg);
+}.photo11{
+    background-image: url(../img/img11.jpg);
+}.photo12{
+    background-image: url(../img/Eto\ JA\ 2.jpg);
+}
+
+h1{
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+}
