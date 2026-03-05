@@ -1,0 +1,49 @@
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+@font-face {
+    font-family: Dolina;
+    src: url(../fonts/Playfun.zip);
+}
+body{
+   
+    font-family: Dolina;
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: ghostwhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    width: calc(50% - 40px);
+    height: calc((35vw - 40px)/ 16 * 9);
+    margin: 10px;
+    background-color: coral;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.);
+}
+.photo:hover{
+    transform:rotate(4deg) scale(1);
+}
+
+.photo1{
+    background-image: url(../img/chill.jpg);
+}
+.photo2{
+    background-image: url(../img/Kot\ tipo.png);
+}
+.photo3{
+    background-image: url(../img/okak.jpg);
+}
+.photo4{
+    background-image: url(../img/Dolina\ net.jpg);
+}
